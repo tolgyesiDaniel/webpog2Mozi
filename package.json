@@ -1,0 +1,24 @@
+{
+  "name": "webpog2mozi",
+  "version": "1.0.0",
+  "description": "Webprog2 Mozi beadandó",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolgyesiDaniel/webpog2Mozi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolgyesiDaniel/webpog2Mozi/issues"
+  },
+  "homepage": "https://github.com/tolgyesiDaniel/webpog2Mozi#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
