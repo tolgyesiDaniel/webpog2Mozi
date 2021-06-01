@@ -18,6 +18,7 @@ A Harcosok klubja 1999-ben bemutatott amerikai filmdráma David Fincher rendezé
 5,A szarvasvadász 1978-ban bemutatott színes, amerikai-brit háborús filmdráma. A filmben pár katona kalandjait ismerhetünk meg egy kellemes 3 órás könnyed történeten keresztül miként üdültek a háború alatt a vietkondok társaságában.;
 
 6, A Matrix egy amerikai média franchise, amelyet Wachowskis író-rendező és Joel Silver producer hozott létre. Egy futurisztikus történetet ismerhetünk meg amiben főszereplőnk egy hatalmas választás elé állítják: él tovább mint báb, vagy a kezébe veszi az irányítást.;
+
 linkek:
 1, https://www.youtube.com/watch?v=IcWgoyGadJQ
 2, https://www.youtube.com/watch?v=YzIvd9YjpL8
