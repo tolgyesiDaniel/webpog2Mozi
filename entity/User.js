@@ -20,6 +20,18 @@ class User {
         return false;
     }
 
+    logout(){
+        localStorage.setItem('user_email', null);
+        localStorage.setItem('user_password', null);
+
+        return true;
+    }
+
+    getUser() {
+        return [localStorage.getItem('user_email'), localStorage.getItem('user_password')];
+    }
+
+
 }
 
 export default User;

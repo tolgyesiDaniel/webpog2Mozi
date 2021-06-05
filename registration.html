@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <title>Maximum mozi</title>
     <link rel="stylesheet" href="./style.css" />
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="./register.js"></script>
 </head>
 <body>
 <div class="topnav">
@@ -19,8 +19,17 @@
     <a href="login.html" style="display: block; float: right">Bejelentkezés</a>
 </div>
 
-<div style="padding-left:16px">
-
+<div class="container" style="padding-left:16px">
+    <div class="form">
+        <div class="title"><h3>Regisztráció</h3></div>
+        <div class="content">
+            <label for="reg_user_email">Email cím</label><br>
+            <input type="email" id="reg_user_email"><br>
+            <label for="reg_user_password">Jelszó</label><br>
+            <input type="password" id="reg_user_password"><br>
+            <button id="registration">Regisztráció</button>
+        </div>
+    </div>
 </div>
 </body>
 </html>
