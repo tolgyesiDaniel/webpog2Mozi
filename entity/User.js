@@ -1,3 +1,6 @@
+/**
+ * User class
+ */
 class User {
 
     constructor() {
@@ -6,6 +9,7 @@ class User {
     }
 
     registration(userEmail, userPassword){
+        localStorage.setItem("user_id", "1");
         localStorage.setItem("user_email", userEmail);
         localStorage.setItem("user_password", userPassword);
 
@@ -21,14 +25,13 @@ class User {
     }
 
     logout(){
-        localStorage.setItem('user_email', null);
-        localStorage.setItem('user_password', null);
-
-        return true;
+        localStorage.setItem("user_id", null);
+        localStorage.setItem("user_email", null);
+        localStorage.setItem("user_password", null);
     }
 
-    getUser() {
-        return [localStorage.getItem('user_email'), localStorage.getItem('user_password')];
+    getUserEmail() {
+        return localStorage.getItem("user_email");
     }
 
 

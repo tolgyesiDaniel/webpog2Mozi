@@ -82,3 +82,18 @@ button{
 button:hover{
     background-color: deepskyblue;
 }
+
+.content-right{
+    display: block;
+    float: right;
+}
+
+.user_name_nav{
+    display: block;
+    float: left;
+    padding-top: 14px;
+    font-size: 18px;
+    color: white;
+    margin-right: 30px;
+    font-weight: 600;
+}
