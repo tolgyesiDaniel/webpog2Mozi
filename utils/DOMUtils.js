@@ -157,6 +157,12 @@ export function homeDOM(){
 }
 
 /**
+ * musor gomb
+ */
+export function musorDOM(){
+    deleteDOM(content);
+}
+/**
  * kijelentkezteti a felhasznalot
  */
 function logout(){

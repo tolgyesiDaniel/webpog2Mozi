@@ -27,11 +27,14 @@ export function loadRegisterDOM(){
 }
 
 /**
- * fooldal gomb
+ * fooldal + műsor gomb
  * @type {HTMLElement}
  */
 let homeButton = document.getElementById("home");
 homeButton.onclick = loadHomeDOM;
+
+let musorButton = document.getElementById("musor");
+musorButton.onclick = loadMusorDOM;
 
 export function loadHomeDOM(){
     homeDOM();
