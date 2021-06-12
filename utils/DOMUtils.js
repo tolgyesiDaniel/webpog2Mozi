@@ -160,8 +160,68 @@ export function homeDOM(){
  * musor gomb
  */
 export function musorDOM(){
-    deleteDOM(content);
+
+    document.getElementById("musor" ).addEventListener("click",function (){
+        deleteDOM(content);
+
+        //kep1
+        let kep1 = document.createElement("img");
+        kep1.setAttribute("class", "gallery");
+        kep1.setAttribute("src", "resources/vihar.jpg");
+        kep1.setAttribute("target", "_blank");
+        kep1.setAttribute("title", "Tovább");
+
+        //kep2
+        let kep2 = document.createElement("img");
+        kep2.setAttribute("class", "gallery");
+        kep2.setAttribute("src", "resources/ido.jpg");
+        kep2.setAttribute("target", "_blank");
+        kep2.setAttribute("title", "Tovább");
+
+        //kep3
+        let kep3 = document.createElement("img");
+        kep3.setAttribute("class", "gallery");
+        kep3.setAttribute("src", "resources/sort.jpg");
+        kep3.setAttribute("target", "_blank");
+        kep3.setAttribute("title", "Tovább");
+
+        //kep4
+        let kep4 = document.createElement("img");
+        kep4.setAttribute("class", "gallery");
+        kep4.setAttribute("src", "resources/harcos.jpg");
+        kep4.setAttribute("target", "_blank");
+        kep4.setAttribute("title", "Tovább");
+
+        //kep5
+        let kep5 = document.createElement("img");
+        kep5.setAttribute("class", "gallery");
+        kep5.setAttribute("src", "resources/szarvas.jpg");
+        kep5.setAttribute("target", "_blank");
+        kep5.setAttribute("title", "Tovább");
+
+        //kep6
+        let kep6 = document.createElement("img");
+        kep6.setAttribute("class", "gallery");
+        kep6.setAttribute("src", "resources/matrix.jpg");
+        kep6.setAttribute("target", "_blank");
+        kep6.setAttribute("title", "Tovább");
+
+        content.appendChild(kep1);
+        content.appendChild(kep2);
+        content.appendChild(kep3);
+        content.appendChild(kep4);
+        content.appendChild(kep5);
+        content.appendChild(kep6);
+
+    });
 }
+
+/**
+ * info gomb
+ */
+  //  document.getElementById("info" ).addEventListener("click",function (){
+       // deleteDOM(content);
+  //  });
 /**
  * kijelentkezteti a felhasznalot
  */

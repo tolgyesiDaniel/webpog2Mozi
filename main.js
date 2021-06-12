@@ -2,7 +2,7 @@
  * a menu linkjeire kattintva az adot dom-ot tolti be a fokepernyore
  */
 
-import {addLoginDOM, addRegistrationDOM, homeDOM} from "./utils/DOMUtils.js";
+import {addLoginDOM, addRegistrationDOM, homeDOM, musorDOM} from "./utils/DOMUtils.js";
 
 /**
  * login gomb
@@ -27,15 +27,24 @@ export function loadRegisterDOM(){
 }
 
 /**
- * fooldal + műsor gomb
+ * fooldal + műsor gomb + info gomb
  * @type {HTMLElement}
  */
 let homeButton = document.getElementById("home");
 homeButton.onclick = loadHomeDOM;
 
-let musorButton = document.getElementById("musor");
-musorButton.onclick = loadMusorDOM;
+let MusorButton = document.getElementById("musor");
+MusorButton.onclick = loadMusorDOM;
+
+let InfoButton = document.getElementById("info");
+InfoButton.onclick = loadInfoDOM;
 
 export function loadHomeDOM(){
     homeDOM();
+}
+export function loadMusorDOM(){
+    musorDOM();
+}
+export function loadInfoDOM(){
+    infoDOM();
 }
