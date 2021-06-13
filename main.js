@@ -36,15 +36,9 @@ homeButton.onclick = loadHomeDOM;
 let MusorButton = document.getElementById("musor");
 MusorButton.onclick = loadMusorDOM;
 
-let InfoButton = document.getElementById("info");
-InfoButton.onclick = loadInfoDOM;
-
 export function loadHomeDOM(){
     homeDOM();
 }
 export function loadMusorDOM(){
     musorDOM();
-}
-export function loadInfoDOM(){
-    infoDOM();
 }

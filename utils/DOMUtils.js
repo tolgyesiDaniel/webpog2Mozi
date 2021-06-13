@@ -165,46 +165,95 @@ export function musorDOM(){
         deleteDOM(content);
 
         //kep1
-        let kep1 = document.createElement("img");
+        let kep1 = document.createElement("a");
         kep1.setAttribute("class", "gallery");
-        kep1.setAttribute("src", "resources/vihar.jpg");
-        kep1.setAttribute("target", "_blank");
-        kep1.setAttribute("title", "Tovább");
+        kep1.setAttribute("style", "background-image: url('resources/vihar.jpg');");
+        kep1.setAttribute("href", "#vihar");
+        kep1.textContent = "Tovább";
 
         //kep2
-        let kep2 = document.createElement("img");
+        let kep2 = document.createElement("a");
         kep2.setAttribute("class", "gallery");
-        kep2.setAttribute("src", "resources/ido.jpg");
-        kep2.setAttribute("target", "_blank");
-        kep2.setAttribute("title", "Tovább");
+        kep2.setAttribute("style", "background-image: url('resources/ido.jpg');");
+        kep2.setAttribute("href", "#ido");
+        kep2.textContent = "Tovább";
 
         //kep3
-        let kep3 = document.createElement("img");
+        let kep3 = document.createElement("a");
         kep3.setAttribute("class", "gallery");
-        kep3.setAttribute("src", "resources/sort.jpg");
-        kep3.setAttribute("target", "_blank");
-        kep3.setAttribute("title", "Tovább");
+        kep3.setAttribute("style", "background-image: url('resources/sort.jpg');");
+        kep3.setAttribute("href", "#sort");
+        kep3.textContent = "Tovább";
 
         //kep4
-        let kep4 = document.createElement("img");
+        let kep4 = document.createElement("a");
         kep4.setAttribute("class", "gallery");
-        kep4.setAttribute("src", "resources/harcos.jpg");
-        kep4.setAttribute("target", "_blank");
-        kep4.setAttribute("title", "Tovább");
+        kep4.setAttribute("style", "background-image: url('resources/harcos.jpg');");
+        kep4.setAttribute("href", "#harcos");
+        kep4.textContent = "Tovább";
 
         //kep5
-        let kep5 = document.createElement("img");
+        let kep5 = document.createElement("a");
         kep5.setAttribute("class", "gallery");
-        kep5.setAttribute("src", "resources/szarvas.jpg");
-        kep5.setAttribute("target", "_blank");
-        kep5.setAttribute("title", "Tovább");
+        kep5.setAttribute("style", "background-image: url('resources/szarvas.jpg');");
+        kep5.setAttribute("href", "#szarvas");
+        kep5.textContent = "Tovább";
 
         //kep6
-        let kep6 = document.createElement("img");
+        let kep6 = document.createElement("a");
         kep6.setAttribute("class", "gallery");
-        kep6.setAttribute("src", "resources/matrix.jpg");
-        kep6.setAttribute("target", "_blank");
-        kep6.setAttribute("title", "Tovább");
+        kep6.setAttribute("style", "background-image: url('resources/matrix.jpg');");
+        kep6.setAttribute("href", "#matrix");
+        kep6.textContent = "Tovább";
+
+        //info szöveg
+        let containerinf1 = document.createElement("inf");
+        containerinf1.setAttribute("id", "vihar");
+        containerinf1.setAttribute("class", "szöveg1");
+        containerinf1.className = "info";
+
+        let szoveg1 = document.createElement("p");
+        szoveg1.textContent = "A Viharsziget 2010-ben bemutatott amerikai thriller Martin Scorsese rendezésében. Dennis Lehane azonos című regényének adaptációja. A történet 1954-ben játszódik ahhol Teddy Daniels (Leonardo DiCaprio) rendőrbíró és partnere, Chuck Aule (Mark Ruffalo) a Viharszigetre mennek, az igazságügyi elmekórtani Ashecliff Kórházba. Itt a pszihózis legmélyebb bugyraiba kísérhetjük főszereplőnket.";
+
+        let containerinf2 = document.createElement("inf");
+        containerinf2.setAttribute("id", "ido");
+        containerinf2.setAttribute("class", "szöveg2");
+        containerinf2.className = "info";
+
+        let szoveg2 = document.createElement("p");
+        szoveg2.textContent = "A legendás Robert A. Heinlein (többek között a Csillagközi invázió írója) novellájából készült filmben egy időügynök (Ethan Hawke) barangol múltban és jövőben: minden bevetés más korba vezeti. Egy olyan bűnözőre vadászik, aki valahogy folyton kicsúszik a kezéből, bármilyen időben is készül lecsapni rá.";
+
+        let containerinf3 = document.createElement("inf");
+        containerinf3.setAttribute("id", "sort");
+        containerinf3.setAttribute("class", "szöveg3");
+        containerinf3.className = "info";
+
+        let szoveg3 = document.createElement("p");
+        szoveg3.textContent = "A nagy dobás (eredeti cím: The Big Short) 2015-ben bemutatott amerikai életrajzi vígjáték-dráma, amely Michael Lewis azonos című, 2010-es könyve alapján készült. A történet a 2007–2008-as pénzügyi válság előzményeit olyan szereplők szempontjából dolgozza fel, akik megértették a folyamatokat, előre megsejtették az összeomlást és anyagilag profitáltak belőle.";
+
+        let containerinf4 = document.createElement("inf");
+        containerinf4.setAttribute("id", "harcos");
+        containerinf4.setAttribute("class", "szöveg4");
+        containerinf4.className = "info";
+
+        let szoveg4 = document.createElement("p");
+        szoveg4.textContent = "A Harcosok klubja 1999-ben bemutatott amerikai filmdráma David Fincher rendezésében. Chuck Palahniuk azonos című regényének adaptációja. A névtelen elbeszélő (Edward Norton) egy autógyár álmatlanságtól szenvedő, örökké úton lévő alkalmazottja. Rajta keresztül ismerhetünk meg egy zavarodott elmét akinek a második személyisége egy anarhiát szervez.";
+
+        let containerinf5 = document.createElement("inf");
+        containerinf5.setAttribute("id", "szarvas");
+        containerinf5.setAttribute("class", "szöveg5");
+        containerinf5.className = "info";
+
+        let szoveg5 = document.createElement("p");
+        szoveg5.textContent = "A szarvasvadász 1978-ban bemutatott színes, amerikai-brit háborús filmdráma. A filmben pár katona kalandjait ismerhetünk meg egy kellemes 3 órás könnyed történeten keresztül miként üdültek a háború alatt a vietkondok társaságában.";
+
+        let containerinf6 = document.createElement("inf");
+        containerinf6.setAttribute("id", "matrix");
+        containerinf6.setAttribute("class", "szöveg6");
+        containerinf6.className = "info";
+
+        let szoveg6 = document.createElement("p");
+        szoveg6.textContent = "A Matrix egy amerikai média franchise, amelyet Wachowskis író-rendező és Joel Silver producer hozott létre. Egy futurisztikus történetet ismerhetünk meg amiben főszereplőnk egy hatalmas választás elé állítják: él tovább mint báb, vagy a kezébe veszi az irányítást.";
 
         content.appendChild(kep1);
         content.appendChild(kep2);
@@ -212,6 +261,18 @@ export function musorDOM(){
         content.appendChild(kep4);
         content.appendChild(kep5);
         content.appendChild(kep6);
+        content.appendChild(containerinf1);
+        content.appendChild(containerinf2);
+        content.appendChild(containerinf3);
+        content.appendChild(containerinf4);
+        content.appendChild(containerinf5);
+        content.appendChild(containerinf6);
+        containerinf1.appendChild(szoveg1);
+        containerinf2.appendChild(szoveg2);
+        containerinf3.appendChild(szoveg3);
+        containerinf4.appendChild(szoveg4);
+        containerinf5.appendChild(szoveg5);
+        containerinf6.appendChild(szoveg6);
 
     });
 }
