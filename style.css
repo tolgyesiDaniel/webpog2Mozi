@@ -175,11 +175,20 @@ button:hover{
     height: 80px;
     border: 3px solid gray;
 }
-
-.gallery .style
+.info7
 {
-    width: 100%;
-    height: auto;
+    position: absolute;
+    top: 2300px;
+    left: 24;
+    width: 1290px;
+    height: 80px;
+    border: 3px black;
 }
-
-.
+.wel
+{
+    position: absolute;
+    top: 80px;
+    right: 350px;
+    font-size: xx-large;
+    color: white;
+}
