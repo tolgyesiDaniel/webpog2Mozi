@@ -97,35 +97,89 @@ button:hover{
     margin-right: 30px;
     font-weight: 600;
 }
-
-.gallery
+.front
 {
+    width: 102%;
+    display: block;
+    height: 86%;
+    margin-left: -30px;
+}
+
+.gallery {
     height: 460px;
     margin: 8px;
-    border: 4px solid #ccc;
+    border: 1px solid #ccc;
     float: left;
     width: 200px;
     opacity: 0.8;
     cursor: pointer;
+
 }
 .gallery:hover {
+    border: 1px solid #ffffff;
     opacity: 1;
 }
 
-.info
-{
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    width: 100%;
-    border: 3px solid #73AD21;
-}
-
-.gallery[href="Tovább"]
+.info1
 {
     position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
+    top: 660px;
+    left: 24;
+    width: 1290px;
+    height: 80px;
+    border: 3px solid gray;
 }
+.info2
+{
+    position: absolute;
+    top: 860px;
+    left: 24;
+    width: 1290px;
+    height: 80px;
+    border: 3px solid gray;
+    text-transform: none;
+}
+.info3
+{
+    position: absolute;
+    top: 1060px;
+    left: 24;
+    width: 1290px;
+    height: 80px;
+    border: 3px solid gray;
+}
+.info4
+{
+    position: absolute;
+    top: 1260px;
+    left: 24;
+    width: 1290px;
+    height: 80px;
+    border: 3px solid gray;
+}
+.info5
+{
+    position: absolute;
+    top: 1460px;
+    left: 24;
+    width: 1290px;
+    height: 80px;
+    border: 3px solid gray;
+}
+.info6
+{
+    position: absolute;
+    top: 1660px;
+    left: 24;
+    width: 1290px;
+    height: 80px;
+    border: 3px solid gray;
+}
+
+.gallery .style
+{
+    width: 100%;
+    height: auto;
+}
+
+.
