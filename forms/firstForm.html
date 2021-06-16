@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<script type="text/javascript" src="../foglalas.js"></script>
+</head>
+
+<body>
+<center>
+            <div class="container" style="width: 100%; height: 60px; margin-top: 100px;">
+                <form action="" method="POST">
+
+                    <select id="movie" name="movie" required>
+                        <option value="" disabled selected>Film neve</option>
+                        <option value="viharsziget">Viharsziget</option>
+                        <option value="idohurok">Időhurok</option>
+                        <option value="anagydobas">A Nagy Dobás</option>
+						<option value="harcosokklubja">Harcosok Klubja</option>
+                        <option value="aszarvasvadasz">A Szarvasvadász</option>
+                        <option value="matrix">Mátrix</option>
+                    </select>
+
+                    <select id="date" name="date" required>
+                        <option value="" disabled selected>Dátum</option>
+                        <option value="h">Hétfő</option>
+                        <option value="k">Kedd</option>
+                        <option value="sze">Szerda</option>
+                        <option value="cs">Csütörtök</option>
+                        <option value="p">Péntek</option>
+						<option value="szo">Szombat</option>
+						<option value="v">Vasárnap</option>
+                    </select>
+
+                    <select id="time" name="time" required>
+                        <option value="" disabled selected>Időpont</option>
+                        <option value="09">09:00</option>
+                        <option value="15">15:00</option>
+                        <option value="17">17:00</option>
+                        <option value="19">19:00</option>
+                        <option value="21">21:00</option>
+                        <option value="23">23:00</option>
+                    </select>
+
+                    <input placeholder="Teljes Név" type="text" id="name" name="name" required>
+
+                    <input placeholder="E-mail" type="text" id="email" name="email" required>
+
+                    <button type="button" value="submit" id="submit" name="submit" class="form-btn" onclick="progressButton();"> Helyfoglalás</button>
+					
+					
+				</form>
+				
+				<a href="../index.html" id="back" >Vissza</a>
+			</div>
+	
+	<div class="container" style="width: 100%; margin-top: 100px; display:none" id="checkboxContainer">
+		<form disabled="disabled">
+			<input type="checkbox" id="seatH1" name="chkbx" value="0">
+			<label for="seatH1"> H1</label>
+			<input type="checkbox" id="seatH2" name="chkbx" value="1">
+			<label for="seatH2"> H2</label>
+			<input type="checkbox" id="seatH3" name="chkbx" value="2">
+			<label for="seatH3"> H3</label>
+			<input type="checkbox" id="seatH4" name="chkbx" value="3">
+			<label for="seatH4"> H4</label>
+			<input type="checkbox" id="seatH5" name="chkbx" value="4">
+			<label for="seatH5"> H5</label>
+			<input type="checkbox" id="seatH6" name="chkbx" value="5">
+			<label for="seatH6"> H6</label>
+			<br>
+			<input type="checkbox" id="seatG1" name="chkbx" value="6">
+			<label for="seatG1"> G1</label>
+			<input type="checkbox" id="seatG2" name="chkbx" value="7">
+			<label for="seatG2"> G2</label>
+			<input type="checkbox" id="seatG3" name="chkbx" value="8">
+			<label for="seatG3"> G3</label>
+			<input type="checkbox" id="seatG4" name="chkbx" value="9">
+			<label for="seatG4"> G4</label>
+			<input type="checkbox" id="seatG5" name="chkbx" value="10">
+			<label for="seatG5"> G5</label>
+			<input type="checkbox" id="seatG6" name="chkbx" value="11">
+			<label for="seatG6"> G6</label>
+			<br>
+			<input type="checkbox" id="seatF1" name="chkbx" value="12">
+			<label for="seatF1"> G1</label>
+			<input type="checkbox" id="seatF2" name="chkbx" value="13">
+			<label for="seatF2"> G2</label>
+			<input type="checkbox" id="seatF3" name="chkbx" value="14">
+			<label for="seatF3"> G3</label>
+			<input type="checkbox" id="seatF4" name="chkbx" value="15">
+			<label for="seatF4"> G4</label>
+			<input type="checkbox" id="seatF5" name="chkbx" value="16">
+			<label for="seatF5"> G5</label>
+			<input type="checkbox" id="seatF6" name="chkbx" value="17">
+			<label for="seatF6"> G6</label>		
+			<br>
+			<button type="button" value="submit" id="submit2" name="submit2" class="form-btn" onclick="reserveButton();"> Véglegesítés</button>
+		</form>
+	</div>
+	<img src="../resources/seats.jpg" alt="seats" width="320px" style="display:none" id="seatsPicture">
+</center>
+
+	
+</body>
+
+
+
+</html>

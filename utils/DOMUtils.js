@@ -159,16 +159,7 @@ export function homeDOM(){
     front.setAttribute("class", "front");
     front.setAttribute("src", "resources/front.jpg");
 
-    let containerinf8 = document.createElement("a");
-    containerinf8.className = "wel";
-
-    let szoveg8 = document.createElement("h3");
-    szoveg8.textContent = "Üdvözlünk a MaximumMozi oldalon!!";
-
-
     content.appendChild(front);
-    content.appendChild(containerinf8);
-    containerinf8.appendChild(szoveg8);
 }
 
 /**
@@ -182,38 +173,44 @@ export function musorDOM(){
         //kep1
         let kep1 = document.createElement("a");
         kep1.setAttribute("class", "gallery");
-        kep1.setAttribute("style", "background-image: url('resources/vihar.jpg'); background-size: 100% 100%;");
+        kep1.setAttribute("style", "background-image: url('resources/vihar.jpg');");
         kep1.setAttribute("href", "#vihar");
+        kep1.textContent = "Tovább";
 
         //kep2
         let kep2 = document.createElement("a");
         kep2.setAttribute("class", "gallery");
-        kep2.setAttribute("style", "background-image: url('resources/ido.jpg'); background-size: 100% 100%;");
+        kep2.setAttribute("style", "background-image: url('resources/ido.jpg');");
         kep2.setAttribute("href", "#ido");
+        kep2.textContent = "Tovább";
 
         //kep3
         let kep3 = document.createElement("a");
         kep3.setAttribute("class", "gallery");
-        kep3.setAttribute("style", "background-image: url('resources/sort.jpg'); background-size: 100% 100%;");
+        kep3.setAttribute("style", "background-image: url('resources/sort.jpg');");
         kep3.setAttribute("href", "#sort");
+        kep3.textContent = "Tovább";
 
         //kep4
         let kep4 = document.createElement("a");
         kep4.setAttribute("class", "gallery");
-        kep4.setAttribute("style", "background-image: url('resources/harcos.jpg'); background-size: 100% 100%;");
+        kep4.setAttribute("style", "background-image: url('resources/harcos.jpg');");
         kep4.setAttribute("href", "#harcos");
+        kep4.textContent = "Tovább";
 
         //kep5
         let kep5 = document.createElement("a");
         kep5.setAttribute("class", "gallery");
-        kep5.setAttribute("style", "background-image: url('resources/szarvas.jpg'); background-size: 100% 100%;");
+        kep5.setAttribute("style", "background-image: url('resources/szarvas.jpg');");
         kep5.setAttribute("href", "#szarvas");
+        kep5.textContent = "Tovább";
 
         //kep6
         let kep6 = document.createElement("a");
         kep6.setAttribute("class", "gallery");
-        kep6.setAttribute("style", "background-image: url('resources/matrix.jpg'); background-size: 100% 100%;");
+        kep6.setAttribute("style", "background-image: url('resources/matrix.jpg');");
         kep6.setAttribute("href", "#matrix");
+        kep6.textContent = "Tovább";
 
         //info szöveg
         let containerinf1 = document.createElement("inf");
@@ -264,15 +261,6 @@ export function musorDOM(){
         let szoveg6 = document.createElement("p");
         szoveg6.textContent = "A Matrix egy amerikai média franchise, amelyet Wachowskis író-rendező és Joel Silver producer hozott létre. Egy futurisztikus történetet ismerhetünk meg amiben főszereplőnk egy hatalmas választás elé állítják: él tovább mint báb, vagy a kezébe veszi az irányítást.";
 
-        let containerinf7 = document.createElement("inf");
-        containerinf7.setAttribute("id", "matrix");
-        containerinf7.setAttribute("class", "szöveg7");
-        containerinf7.className = "info7";
-
-        let szoveg7 = document.createElement("p");
-        szoveg7.textContent = "";
-
-
         content.appendChild(kep1);
         content.appendChild(kep2);
         content.appendChild(kep3);
@@ -285,17 +273,17 @@ export function musorDOM(){
         content.appendChild(containerinf4);
         content.appendChild(containerinf5);
         content.appendChild(containerinf6);
-        content.appendChild(containerinf7);
         containerinf1.appendChild(szoveg1);
         containerinf2.appendChild(szoveg2);
         containerinf3.appendChild(szoveg3);
         containerinf4.appendChild(szoveg4);
         containerinf5.appendChild(szoveg5);
         containerinf6.appendChild(szoveg6);
-        containerinf6.appendChild(szoveg7);
 
     });
 }
+
+
 
 /**
  * info gomb
